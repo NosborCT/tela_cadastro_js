@@ -23,7 +23,7 @@ function App() {
             <div className="wrap-input">
               <input 
               className={nome !== "" ? 'has-val input' : 'input'}
-              type="nome"
+              type="word"
               value={nome}
               onChange = {e => setNome(e.target.value)}
               />
@@ -35,7 +35,7 @@ function App() {
               <div className="wrap-input">
               <input 
               className={sobrenome !== "" ? 'has-val input' : 'input'}
-              type="sobrenome"
+              type="word"
               value={sobrenome}
               onChange = {e => setSobrenome(e.target.value)}
               />
